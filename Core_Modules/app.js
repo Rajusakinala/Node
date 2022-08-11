@@ -112,8 +112,8 @@ let a = http.createServer((req, res)=>{
         res.end()
     })
 })
-a.listen(port, (err)=>{
-    if (err) throw err;
+a.listen(port, (error)=>{
+    if (error) throw error;
     else{
         console.log('server running...');
     }
